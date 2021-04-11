@@ -16,7 +16,6 @@ def processor(row, input):
 
 csv_input = pd.read_csv('sample.csv')
 
-
 hashtag = "#debates2020"
 csv_input[hashtag] = csv_input.apply(lambda row: processor(row, hashtag), axis=1)
 
