@@ -1,3 +1,3 @@
-# Dataset Column Insert
+# CSV Column Insert
 
-Insert a new column into a CSV dataset based on another cell value.
+Code sample to insert a new column into a CSV file/dataset and fill it based on the value of another item on the same row.
